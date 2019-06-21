@@ -1,0 +1,223 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 15px;
+}
+
+p {
+	font-size: 15px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff4f00;
+	text-decoration: underline;
+}
+
+.head-address {
+	color: #fff;
+}
+
+header {
+	padding: 20px;
+	background: #212b41;
+}
+
+.clearfix {
+	clear: both;
+}
+
+#container {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+}
+
+.head-contact {
+	float: right;
+}
+
+.logo img {
+	width: 400px;
+}
+
+ul.main-menu {
+	background: #121721;
+}
+
+ul.main-menu li {
+	float: left;
+	list-style: none;
+	padding: 15px;
+}
+
+ul.main-menu li:hover {
+	background: #ff4f00;
+}
+
+ul.main-menu li:hover a {
+	color: #fff;
+}
+
+ul.main-menu li:hover a:hover {
+	text-decoration: none;
+}
+
+.main-body, .page-body {
+	background: #e4f7f8;
+	padding: 20px;
+}
+
+.main-profile-pic {
+	width: 300px; 
+}
+
+.profile-image {
+	float: left;
+	padding: 2px;
+	background: #fff;
+	width: 300px;
+	border: 1px solid #000;
+	margin: 10px;
+}
+
+.profile-content {
+	float: left;
+	width: 600px;
+}
+
+.content-p {
+	width: 500px;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+.read-more {
+	padding: 10px 15px;
+	background: #121721;
+	text-decoration: none;
+	width: 100px;
+	display: block;
+	margin: 15px auto;
+}
+
+.read-more:hover {
+	background: #ff4f00;
+	color:#fff;
+	text-decoration: none;
+}
+
+.footer {
+	background: #212b41;
+}
+
+.foot-menu {
+	background: #212b41;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+.menu-bottom li{
+	float: left;
+	list-style: none;
+	padding: 0 15px;
+	border-right: 1px solid #fff; 
+}
+
+.last-menu-item {
+	border: none !important; 	
+}
+
+/* display, margin and width has been used here to drag menu items into center*/
+.menu-bottom {
+	display: block;
+	margin: 0 auto;
+	width: 350px;
+}
+
+.foot-copy {
+	padding-bottom: 20px;
+	padding-top: 5px;
+}
+
+.foot-copy p {
+	color: #fff;
+	text-align: center;
+}
+
+.page-content-heading h2{
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+
+.page-image {
+	width: 200px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 2px;
+	border: 1px dotted #000;
+}
+
+.page-heading {
+	margin-bottom: 15px;
+}
+
+.contact-page-email {
+	color: #000;
+}
+
+.contact-details {
+	float: left;
+	padding-right: 20px;
+	margin-right: 20px;
+}
+
+.contact-form {
+	float:left;
+}
+
+.contact-heading {
+	text-align: left;
+}
+
+.contact-form form label{
+	display: block;
+}
+
+.contact-form form input, .contact-form form textarea {
+	margin: 5px 0 ;
+	padding: 5px;
+	width: 400px;
+	border: 1px solid #000;
+}
+
+.submit-button {
+	width: 100px;
+	display: block;
+	padding: 10px;
+	border: 1px solid #000;
+}
+
+.address-icon {
+	width: 30px;
+}
